@@ -7,6 +7,10 @@ h1{
   text-align: center;
 }
 
+#pos {
+  margin-top: 700px;
+}
+
 
 /*                               _ _   _             
                                (_) | (_)            
@@ -202,7 +206,87 @@ h1{
  | |__  |  \| | |  | |   __ _| |__  ___  ___ | |_   _  ___     ) |
  |  __| | . ` | |  | |  / _` | '_ \/ __|/ _ \| | | | |/ _ \   / / 
  | |____| |\  | |__| | | (_| | |_) \__ \ (_) | | |_| |  __/  / /_ 
- |______|_| \_|_____/   \__,_|_.__/|___/\___/|_|\__,_|\___| |____|*/                                                            
+ |______|_| \_|_____/   \__,_|_.__/|___/\___/|_|\__,_|\___| |____|*/  
+
+
+ /*        _               _            _____      _       _   _           
+       | |             | |          |  __ \    | |     | | (_)          
+   __ _| |__  ___  ___ | |_   _  ___| |__) |___| | __ _| |_ ___   _____ 
+  / _` | '_ \/ __|/ _ \| | | | |/ _ \  _  // _ \ |/ _` | __| \ \ / / _ \
+ | (_| | |_) \__ \ (_) | | |_| |  __/ | \ \  __/ | (_| | |_| |\ V /  __/
+  \__,_|_.__/|___/\___/|_|\__,_|\___|_|  \_\___|_|\__,_|\__|_| \_/ \___|
+                                                                        
+                                                                        */
+
+
+
+
+.plumeAbsolueRelative{
+box-sizing: content-box;
+width: 100%;
+border: solid rgb(255, 255, 255) 10px;
+padding: 5px; }
+
+.plumeAbsolueRelative {
+  width: 250px;
+  height: 250px;
+  background-color: cadetblue;
+  margin: auto;
+  margin-top: 50px;
+  border: solid black;
+}
+
+.vertAbsolueRelative  {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.bleuAbsolueRelative  {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  left: 135px;
+  top: 5px;
+}
+
+.rougeAbsolueRelative  {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 5px;
+}
+
+.jauneAbsolueRelative  {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: relative;
+  left: 135px;
+  top: 35px;
+}
+
+/*  ______ _   _ _____        _               _            _____      _       _   _           
+ |  ____| \ | |  __ \      | |             | |          |  __ \    | |     | | (_)          
+ | |__  |  \| | |  | | __ _| |__  ___  ___ | |_   _  ___| |__) |___| | __ _| |_ ___   _____ 
+ |  __| | . ` | |  | |/ _` | '_ \/ __|/ _ \| | | | |/ _ \  _  // _ \ |/ _` | __| \ \ / / _ \
+ | |____| |\  | |__| | (_| | |_) \__ \ (_) | | |_| |  __/ | \ \  __/ | (_| | |_| |\ V /  __/
+ |______|_| \_|_____/ \__,_|_.__/|___/\___/|_|\__,_|\___|_|  \_\___|_|\__,_|\__|_| \_/ \___|
+                                                                                            
+                                                                                            */
+
+
+
+ 
+ 
+
+
 
 
 
