@@ -5,6 +5,12 @@
 
 h1{
   text-align: center;
+  color: whitesmoke;
+}
+
+h2{
+  text-align: center;
+  color: silver;
 }
 
 #pos {
@@ -15,7 +21,9 @@ h1{
   clear: both;
 }
 body{
-  background-color: papayawhip;
+  background: url(../img/wit.gif);
+ 
+  
 }
 
 
@@ -136,10 +144,7 @@ body{
   margin: auto;
   position: absolute;
   margin-top: 100px;
-  left: 400px;
-  
-  
- 
+  left: 500px;
  
 }
 
@@ -528,6 +533,7 @@ ul{
 p{
   width: 75%;
   float: right;
+  color: silver;
 }
 
 
