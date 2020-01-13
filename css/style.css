@@ -111,7 +111,8 @@ body{
 
 
 
-/*        _               _            
+/*  
+        _               _            
        | |             | |           
    __ _| |__  ___  ___ | |_   _  ___ 
   / _` | '_ \/ __|/ _ \| | | | |/ _ \
@@ -151,7 +152,8 @@ body{
   margin-top: 450px;
   left: 200px;
 }       
-/*  ______ _   _ _____          _               _            
+/* 
+  ______ _   _ _____          _               _            
  |  ____| \ | |  __ \        | |             | |           
  | |__  |  \| | |  | |   __ _| |__  ___  ___ | |_   _  ___ 
  |  __| | # ` | |  | |  / _` | '_ \/ __|/ _ \| | | | |/ _ \
@@ -162,7 +164,7 @@ body{
    
                                                            
 
-/*        _               _              ___  
+/*      _               _              ___  
        | |             | |            |__ \ 
    __ _| |__  ___  ___ | |_   _  ___     ) |
   / _` | '_ \/ __|/ _ \| | | | |/ _ \   / / 
@@ -234,58 +236,52 @@ body{
 
 
 
-#plumeAbsolueRelative{
-box-sizing: content-box;
-width: 100%;
-border: solid rgb(255, 255, 255) 10px;
-padding: 5px; }
+
 
 #plumeAbsolueRelative {
-  width: 250px;
-  height: 250px;
-  background-color: cadetblue;
-  margin: auto;
-  margin-top: 50px;
-  border: solid black;
+  position: relative;
+  box-sizing: border-box;
+  height: 500px;
+  width: 500px;
+  padding: 25px;
+  background-color: plum;
+  margin-left: 700px;
 }
 
 #vertAbsolueRelative  {
-  width: 100px;
-  height: 100px;
-  background-color: green;
   position: absolute;
-  margin-top: 5px;
-  margin-left: 5px;
+  width: 200px;
+  height: 200px;
+  background-color: green;
 }
 
 #bleuAbsolueRelative  {
-  width: 100px;
-  height: 100px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 275px;
   background-color: blue;
-  position: relative;
-  left: 135px;
-  top: 5px;
 }
 
 #rougeAbsolueRelative  {
-  width: 100px;
-  height: 100px;
-  background-color: orange;
   position: absolute;
-  margin-top: 35px;
-  margin-left: 5px;
+  width: 200px;
+  height: 200px;
+  top: 275px;
+  background-color: red;
 }
 
 #jauneAbsolueRelative  {
-  width: 100px;
-  height: 100px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 275px;
+  left: 275px;
   background-color: yellow;
-  position: relative;
-  left: 135px;
-  top: 35px;
 }
 
-/*  ______ _   _ _____        _               _            _____      _       _   _           
+/*
+  ______ _   _ _____        _               _            _____      _       _   _           
  |  ____| \ | |  __ \      | |             | |          |  __ \    | |     | | (_)          
  | |__  |  \| | |  | | __ _| |__  ___  ___ | |_   _  ___| |__) |___| | __ _| |_ ___   _____ 
  |  __| | # ` | |  | |/ _` | '_ \/ __|/ _ \| | | | |/ _ \  _  // _ \ |/ _` | __| \ \ / / _ \
@@ -293,6 +289,73 @@ padding: 5px; }
  |______|_| \_|_____/ \__,_|_#__/|___/\___/|_|\__,_|\___|_|  \_\___|_|\__,_|\__|_| \_/ \___|
                                                                                             
 */
+
+/*
+        _               _             _               _            
+       | |             | |           | |             | |           
+   __ _| |__  ___  ___ | |_   _  __ _| |__  ___  ___ | |_   _  ___ 
+  / _` | '_ \/ __|/ _ \| | | | |/ _` | '_ \/ __|/ _ \| | | | |/ _ \
+ | (_| | |_) \__ \ (_) | | |_| | (_| | |_) \__ \ (_) | | |_| |  __/
+  \__,_|_.__/|___/\___/|_|\__,_|\__,_|_.__/|___/\___/|_|\__,_|\___
+  */
+
+
+#plumeAbsolueAbsolue {
+  position: relative;
+  box-sizing: border-box;
+  height: 500px;
+  width: 500px;
+  padding: 25px;
+  background-color: plum;
+  margin-left: 700px;
+}
+
+#vertAbsolueAbsolue  {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+#bleuAbsolueAbsolue  {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 275px;
+  background-color: blue;
+}
+
+#rougeAbsolueAbsolue  {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 275px;
+  background-color: red;
+}
+
+#jauneAbsolueAbsolue {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 275px;
+  left: 275px;
+  background-color: yellow;
+}
+
+
+/*
+  ______ _   _ _____        _               _             _               _            
+ |  ____| \ | |  __ \      | |             | |           | |             | |           
+ | |__  |  \| | |  | | __ _| |__  ___  ___ | |_   _  __ _| |__  ___  ___ | |_   _  ___ 
+ |  __| | . ` | |  | |/ _` | '_ \/ __|/ _ \| | | | |/ _` | '_ \/ __|/ _ \| | | | |/ _ \
+ | |____| |\  | |__| | (_| | |_) \__ \ (_) | | |_| | (_| | |_) \__ \ (_) | | |_| |  __/
+ |______|_| \_|_____/ \__,_|_.__/|___/\___/|_|\__,_|\__,_|_.__/|___/\___/|_|\__,_|\___|
+                                                                                       
+                                                                                       
+*/
+
+
+
 
 
 
@@ -441,7 +504,8 @@ padding: 5px; }
  \__ \ |_| | (__|   <| |_| |
  |___/\__|_|\___|_|\_\\__, |
                        __/ |
-                      |___/ */
+                      |___/ 
+                      */
                                               
 #ExSticky{
   position: relative;
